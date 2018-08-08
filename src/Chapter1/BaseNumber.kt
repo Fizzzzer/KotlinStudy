@@ -9,7 +9,8 @@ fun main(args: Array<String>) {
 //    BooleanTest()
 //    NumberTest()
 //    ChatTest()
-    StringTest()
+//    StringTest()
+    rangeTest()
 }
 
 fun printStr(str: String) {
@@ -63,4 +64,16 @@ fun StringTest() {
     println("" + a)
 
     println(name + birth)
+}
+
+fun rangeTest(){
+    val mRange: IntRange = 0..10
+    println(""+mRange.start+ "====" + mRange.last)
+
+    val mopenRange: IntRange = 0 until 10
+    println(""+mopenRange.start+ "====" + mopenRange.last)
+
+    println(4 in mRange)
+
+    println(mRange.contains(40))
 }
