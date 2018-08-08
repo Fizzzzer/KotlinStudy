@@ -59,5 +59,19 @@
 			println("$a + $b = ${a + b}")
 		
 			
-				
+#### 数组
+
+* 基本类型数组
+
+	Kotlin中，对于基本的数据类型都提供相对应的基本数据类型数组
+声明语法如下:
+
+		val int_array : IntArray = intArrayOf(1,2,3)	
+		val float_array : FloatArray = floatArrayOf(1.0f,3.4f,5.6f)
+	
+* 字符串数组
+
+	因为字符串不属于基本的数据类型，所以在声明字符串数组的时候，跟基本类型的数组声明是有区别的，声明语法如下：
+	
+		val string_array : Array<String> = arrayOf("Fizzer","Doraemon","Ariel")
 	
