@@ -12,11 +12,11 @@ fun main(args: Array<String>) {
     StringTest()
 }
 
-fun printStr(str: String){
+fun printStr(str: String) {
     println(str)
 }
 
-fun BooleanTest(){
+fun BooleanTest() {
     val boolTrue: Boolean = true
     val boolFalse: Boolean = false
 
@@ -27,7 +27,7 @@ fun BooleanTest(){
 
 }
 
-fun NumberTest(){
+fun NumberTest() {
     val maxInt: Int = Int.MAX_VALUE
     val minInt: Int = Int.MIN_VALUE
     val float: Float = 9.0F
@@ -38,14 +38,14 @@ fun NumberTest(){
     println(Math.PI)
 }
 
-fun ChatTest(){
+fun ChatTest() {
     val aChar: Char = 'a'
     val nChar: Char = '\n'
     println(aChar)
     println(nChar)
 }
 
-fun StringTest(){
+fun StringTest() {
     val name: String = "Fizzer"
     val birth: String = "1991"
     println(name)
@@ -56,11 +56,11 @@ fun StringTest(){
 
     val a: Int = 4
     val b: Int = 5
-    println("$a + $b = ${a+b}")
+    println("$a + $b = ${a + b}")
 
     println("$name 的出生日期是 $birth")
 
-    println(""+a)
+    println("" + a)
 
     println(name + birth)
 }
