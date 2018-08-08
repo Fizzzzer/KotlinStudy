@@ -69,4 +69,4 @@
 
 	也就是说，在Kotlin中，前面已经通过if语句判断了parent就是Subclass的一个实例，那么我在后面的调用的时候，是不需要再进行类型转换的，这就是智能类型转换
 	
-	######Kotlin中使用`is`来判断是否为某个对象的实例，类似于Java的`instanceOf`关键字
+	###### Kotlin中使用`is`来判断是否为某个对象的实例，类似于Java的`instanceOf`关键字
