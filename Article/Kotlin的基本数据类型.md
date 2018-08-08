@@ -1,9 +1,9 @@
-##Kotlin入门----什么是Kotlin
+## Kotlin入门----什么是Kotlin
 
  Kotlin是一门可以运行在java虚拟机、Android、浏览器上的静态语言，与
  Java100%的兼容
  
-####Kotlin的基本数据类型
+#### Kotlin的基本数据类型
 * Boolean类型
 	
 		val bol: Boolean = true
@@ -34,7 +34,7 @@
 		val mFloat: Float = 9.0F
 		val mDouble: Double = 9.0
 
-	######在Kotlin中，并没有装箱与拆箱过程，这一点跟Java不同
+	###### 在Kotlin中，并没有装箱与拆箱过程，这一点跟Java不同
 	
 * Char类型
 
