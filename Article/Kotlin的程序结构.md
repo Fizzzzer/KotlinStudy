@@ -31,3 +31,26 @@
 	
 	
 #### Kotlin的中缀表达式
+
+使用`infix`关键字标记的函数,使用中缀标记法标记的函数在调用的时候可以省略点号和括号
+
+中缀函数需要满足以下条件:
+
+* 必须是成员函数或者扩展函数
+* 必须只有单个参数
+* 参数不能是不定量参数，而且不能有默认值
+
+代码示例：
+
+	infix fun on(tmpMan: Man): Boolean{
+		return name == tmpName.name		//定义了一个中缀表达式on，来比较两个Man对象的name是否相等
+	}
+
+在调用的时候就不需要Man().on()这样去调用了，下面是调用示例
+
+	var a = Man("Fizzer")
+	var b = Man("Doraemon")
+	println(a on b)	//这里打印 false
+	
+以上就是中缀表达式的用法，更多详情参见官方文档[【中缀标记法】](http://www.liying-cn.net/kotlin/docs/reference/functions.html#infix-notation)
+
