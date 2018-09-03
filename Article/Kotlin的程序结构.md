@@ -42,3 +42,19 @@
 					}
 				}
 			}
+			
+* try-catch语句
+
+	与java类似，catch用来匹配错误的类型。与Java不同的是，try-catch语句也具有返回值，跟if一样
+	
+		val a = 3
+		val b = 0
+		val result = try{
+			a / b
+		}catch(...){
+			0
+		}finally{
+			println("结束")
+		}
+		
+	代码解释，定义result的值为a / b, 如果这个运算出错，那么result的值为0
