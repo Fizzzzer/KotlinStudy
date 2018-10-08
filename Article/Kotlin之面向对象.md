@@ -15,5 +15,10 @@
 
 ##### 3.接口代理
 
-* class Manager(driver: Driver) : 
+* class Manager(driver: Driver) : Driver by driver
+* 接口方法的实现交给代理类实现
+
+### Object
+
+	
 	
