@@ -17,3 +17,7 @@ fun String.toFizzer(): String {
 fun Int.plusme(b: Int): Int {
     return this + (b * 2)
 }
+
+fun Comment.toTime(): String{
+    return "显示时间"
+}
